@@ -79,18 +79,31 @@ h1, h2, h3, h4, h5 {
 
 .acontact {
 	display: flex;
-	
 }
 
 /*BContent section*/
 
 .BContent {
 	display: flex;
+	justify-content: space-evenly;
 	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }
 
+.Services {
+	border: 2px solid black;
+	width: 30%
+} 
 
-
+.Product {
+	border: 2px solid black;
+	width: 30%;
+}
+.Vision {
+	border: 2px solid black;
+	width: 30%
+}
 /*middle image section*/
 
 .Mimage {
@@ -102,12 +115,12 @@ h1, h2, h3, h4, h5 {
 /*TContent section*/
 
 .TContent {
-	text-align: center;
 	display: inline-block;
-	width: 100%;
+	text-align: center;
+	
+	
 	height: 10px;
-	margin: 20px;
-	padding: 0 20%;
+	
 }
 
  .About {
@@ -128,23 +141,21 @@ h1, h2, h3, h4, h5 {
 }
 
 .CImage {
+	display: flex;
 	text-align: center;
-	width: 20%;
-	float: right;
-}
+	width: 20%; }
+
+.M
 
 
 /*Nav section*/
 
 .Navi {
-	display: inline-block;
-	margin: 10px;
-	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
 
 }
 
-.logo {
-	float: right;
 }
 
 
