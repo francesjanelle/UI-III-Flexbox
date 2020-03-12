@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+* {
+	border: 2px solid, rgb(0, 0, 0);
+}
+
+/*footer Section*/
+
+.Footer p{
+	text-align: center;
+}
+
+
+/*Contact section*/
+
+.acontact p{
+	text-align: start;
+}
+
+/*BContent section*/
+
+.BContent {
+	display: flex;
+	text-align: center;}
+	
+
+
+
+/*middle image section*/
+
+.Mimage {
+	text-align: center;
+	
+}
+
+/*TContent section*/
+
+.TContent {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	}
+	
+
+
+
+/*Header section*/
+
+	
+	
+}
+
+.CImage {
+	text-align: center;
+	width: 20%;
+}
+
+
+
+/*Nav section*/
+
+.Navi {
+	display: flex;
+	flex: space-between;
+
+}
+
+
+
+/*Body section*/
+
+
+
+
