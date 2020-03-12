@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*	border: 0;	*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -67,6 +67,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+* {
+	border: solid 2px gray;
+}
 
 /*footer Section*/
 
@@ -79,6 +82,7 @@ h1, h2, h3, h4, h5 {
 
 .acontact {
 	display: flex;
+	flex
 }
 
 /*BContent section*/
@@ -107,28 +111,18 @@ h1, h2, h3, h4, h5 {
 /*middle image section*/
 
 .Mimage {
+	display: flex;
+	justify-content: center;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 /*TContent section*/
 
 .TContent {
-	display: inline-block;
+	display: flex;
+	justify-content: space-evenly;
 	text-align: center;
 	
-	
-	height: 10px;
-	
-}
-
- .About {
-	padding-left: 50%;
-}
-
-.Features {
-	padding-right: 50%;
 }
 
 
@@ -140,23 +134,36 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
-.CImage {
-	display: flex;
-	text-align: center;
-	width: 20%; }
 
-.M
+
+.MContent {
+	display: flex;
+	
+}
+
+img{
+	display:flex;
+}
 
 
 /*Nav section*/
 
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%
+}
 .Navi {
 	display: flex;
 	justify-content: space-evenly;
-
+	width: auto;
 }
 
+
+h1 {
+	font-size: 70px;
 }
+
 
 
 /*Body section*/
