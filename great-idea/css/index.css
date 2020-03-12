@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 * {
-	border: solid 2px gray;
+/*	border: solid 2px gray; */
 }
 
 /*footer Section*/
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5 {
 
 .acontact {
 	display: flex;
-	flex
+	flex-direction: column;
 }
 
 /*BContent section*/
@@ -90,30 +90,18 @@ h1, h2, h3, h4, h5 {
 .BContent {
 	display: flex;
 	justify-content: space-evenly;
-	text-align: center;
 	padding: 10px;
-	margin: 10px;
+	/* margin: 10px; */
 }
 
-.Services {
-	border: 2px solid black;
-	width: 30%
-} 
 
-.Product {
-	border: 2px solid black;
-	width: 30%;
-}
-.Vision {
-	border: 2px solid black;
-	width: 30%
-}
 /*middle image section*/
 
 .Mimage {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	padding: 20px;
 }
 
 /*TContent section*/
@@ -121,30 +109,32 @@ h1, h2, h3, h4, h5 {
 .TContent {
 	display: flex;
 	justify-content: space-evenly;
-	text-align: center;
+	padding: 10px;
+	;
 	
 }
 
 
 /*Header section*/
 
+.MContent {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Cimage {
+	display: flex;
+	align-items: flex-end;
+}
+
+
+
 .IODemand  {
 	font-size: 20px;
 	padding: 20px;
-	display: inline-block;
 }
 
-
-
-.MContent {
-	display: flex;
 	
-}
-
-img{
-	display:flex;
-}
-
 
 /*Nav section*/
 
@@ -159,9 +149,14 @@ img{
 	width: auto;
 }
 
+.GSbutton {
+	display: flex;
+	justify-content: center;
+}
 
 h1 {
 	font-size: 70px;
+	text-align: center;
 }
 
 
